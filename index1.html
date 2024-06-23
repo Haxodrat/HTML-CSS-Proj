@@ -1,0 +1,97 @@
+<!-- defines this file as html file -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <!-- form is input space, label tells the user what value should be entered in the for attribute, id gives unique id for each input, name groups input fields together-->
+    <form>
+        <label for="username">Enter username: </label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br><br>
+        <label for="email">Enter email: </label>
+        <input type="email" id="email" name="email" placeholder="your email" required>
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="choose a password" required>
+
+        <p>Select Your Age: </p>
+
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-1">26-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-1">51+</label>
+
+        <br><br>
+
+        <label for="question">Security question: </label>
+        <select name="question" id="question">
+            <option value="q1">What color are your favorite shoes?</option>
+            <option value="q2">If you could be a veggie, what would it be?</option>
+            <option value="q3">What is your best security question?</option>
+        </select>
+
+        <br><br>
+
+        <label for="">Security question answer: </label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <label for="bio">Your Bio: </label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About You..."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit the form">
+
+    </form>
+
+    <!-- <div>
+        <p>Hello, <strong>ninjas</strong></p>
+        <p>First <small>web</small> <em>page!</em></p>
+        <a href="https://www.thenetninja.co.uk">the net ninja website</a>
+        <a href="about.html">About Page</a>
+    </div>
+
+    <div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+    </div>
+
+    <div>
+        <ul>
+            <li>Yoshi</li>
+            <li>Luigi</li>
+            <li>Toad</li>
+        </ul>
+    </div> -->
+
+    
+    <!-- Acts a little different from p-->
+    <!-- <span>I am a <br>span tag</span>
+
+    <!-- horizontal line -->
+    <!-- <hr>
+
+    <!--insert an image, src tells browser what image to display -->
+    <!-- <img src="img/Blue IBM Background.png" alt="Picture of IBM Accelerate">
+
+    <blockquote cite="http://www.oscarwildesite.com">
+        we are all in the gutter, but some of us are looking at the stars
+    </blockquote>
+
+    <p style="color: orange;">style me :)</p>
+
+
+</body>
+
+</html>
