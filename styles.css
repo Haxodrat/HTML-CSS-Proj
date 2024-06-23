@@ -30,7 +30,7 @@ div#content{
 a[href$=".com"]{
     color: green;
 } */
-div{
+/* div{
     color: lightcoral;
     border: 1px solid grey;
     margin: 40px;
@@ -43,7 +43,7 @@ div p{
 }
 p{
     color: orange;
-}
+} */
 /* div{
     border: 2px solid crimson;
     margin: 20px;
