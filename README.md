@@ -3,8 +3,10 @@
 ## Description
 <p>This project refreshes on the fundamentals and elements of building a web application with HTML & CSS.</p>
 
-## Get Started
+## Getting Started
 
-#### Open the website
-<p>Clone the repo and install the Live Server extension on Visual Studio Code.</p>
-<p>Right click the index.html and open with Live Server.</p>
+### 1. Open the website
+```bash
+Clone the repository on Visual Studio Code and install the Live Server extension.
+Open any html file with Live Server to access the web page.
+```
