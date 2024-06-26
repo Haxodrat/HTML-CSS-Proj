@@ -5,8 +5,12 @@
 
 ## Getting Started
 
-### 1. Open the website
+### 1. Open the website.
+#### Clone the repository on Visual Studio Code and install the Live Server Extension.
 ```bash
-Clone the repository on Visual Studio Code and install the Live Server extension.
-Open any html file with Live Server to access the web page.
+git clone <repository url>
+```
+#### Open any html file with Live Server to access the web page(s).
+```bash
+Right-click on the html file and open with Live Server
 ```
